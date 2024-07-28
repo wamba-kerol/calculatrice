@@ -1,0 +1,41 @@
+.contenair {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    background-color: rgb(42, 49, 49);
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+
+    justify-content: flex-end;
+
+   font-size: x-large;
+    color: white;
+}
+.s{
+    color: blue;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    gap: 20px;
+    height: 350px;
+    background-color: rgb(24, 20, 20);
+
+}
+
+button {
+    border: none;
+    background-color: rgb(24, 20, 20);
+    color: rgb(247, 248, 248);
+    font-size: x-large;
+}
